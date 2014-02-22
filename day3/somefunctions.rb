@@ -1,7 +1,10 @@
 def favoritenumber
-  puts "lololololo"
-  return 168
+  puts "lololololo" #does a side effect and the statement returns "lololololo" which is lost
+  return 168 #ends the function and returns the value 168
 end
+
+somestorage = favoritenumber
+#somestorage now contains 168
 
 #def favoritenumber
   #168
@@ -17,11 +20,15 @@ end
 puts phrase
 
 
+#functions will stop running and return a value any time a return statement is hit
 def doubleit num
   num = num * 2
   return num
+  num = 3 #this line won't ever run
 end
 
+#functions will always return the returned value of the last line
+#using "return" isn't always necessary
 #def doubleit num
   #num * 2
 #end
