@@ -27,6 +27,17 @@ def doubleit num
   num = 3 #this line won't ever run
 end
 
+doubleit 2
+
+
+def multiplythem numarray
+  numarray.each do |num|
+    #something
+  end
+end
+
+multiplythem
+
 #functions will always return the returned value of the last line
 #using "return" isn't always necessary
 #def doubleit num

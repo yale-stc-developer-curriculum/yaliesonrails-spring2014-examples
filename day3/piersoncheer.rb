@@ -1,3 +1,6 @@
+require "pry"
+#require "pry-debugger"
+
 #Some Array Examples
 somenumbers = [1, 2, 3, 5, 7]
 assortedstuff = [1, "cheese", :beans, somenumbers]
@@ -14,6 +17,7 @@ end
 
 lett = 'P'
 letters.each do |lett|
+  binding.pry if lett == "P"
   puts "The " + lett + " is for the " + lett + " in Pierson College!"
 end
 
