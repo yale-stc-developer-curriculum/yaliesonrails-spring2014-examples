@@ -1,15 +1,27 @@
+
 class Die
-  
+
   def roll
-    1 + rand(6)
+    @numberShowing = 1 + rand(6)
   end
-  
+
+  def showing
+    @numberShowing
+  end
+  def cheat makeitthisnumber
+    @numberShowing = makeitthisnumber
+  end
+  def showing= makeitthisnumber
+    @numberShowing = makeitthisnumber
+  end
+
 end
 
-##  Let's make a couple of dice...
-#dice = [Die.new, Die.new]
+#die = Die.new
+#die.roll
+#puts die.showing
+#puts die.showing
+#die.roll
+#puts die.showing
+#puts die.showing
 
-##  ...and roll them.
-#dice.each do |die|
-  #puts die.roll
-#end

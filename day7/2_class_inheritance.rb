@@ -18,15 +18,15 @@ whiskers.speak
 
 
 #you can sorta pretend that the Cat class looks like this
-#class Cat
-  ##inherited this one
-  #def breathe 
-    #puts "inhale and exhale"
-  #end
+class Cat
+  #inherited this one
+  def breathe 
+    puts "inhale and exhale"
+  end
 
-  ##didn't inherit this one
-  #def speak
-    #puts "Meow"
-  #end
-#end
+  #didn't inherit this one
+  def speak
+    puts "Meow"
+  end
+end
 
