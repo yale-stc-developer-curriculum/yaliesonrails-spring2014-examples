@@ -9,4 +9,4 @@
 // the /.../ part outlines the regex
 // the g means "global" - not just the first one but find and replace all
 
-document.body.innerHTML = document.body.innerHTML.replace(/target string/g, "replacement string");
+document.body.innerHTML = document.body.innerHTML.replace(/cloud/g, "butt");
